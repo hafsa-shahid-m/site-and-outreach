@@ -1,0 +1,31 @@
+{
+  "seed_first_day_offset": 7,
+  "seed_last_day_offset": 1,
+  "seed_people_views": 158,
+  "seed_robot_requests": 96,
+  "seed_top_page": "/",
+  "seed_top_page_views": 46,
+  "seed_top_referrer": "linkedin.com",
+  "seed_top_referrer_views": 72,
+  "seed_top_article": "/blog/the-night-a-retry-loop-ate-my-queue",
+  "seed_views_per_day": [
+    21,
+    25,
+    33,
+    27,
+    24,
+    15,
+    13
+  ],
+  "seed_views_day3": 33,
+  "seed_unique_visitors_day3": 28,
+  "seed_recipient_count": 5,
+  "seed_recipients_with_visits": 4,
+  "seed_reachouts_sent": 4,
+  "seed_funnel_opened": 2,
+  "seed_funnel_clicked": 2,
+  "seed_clicks_with_recipient": 4,
+  "seed_clicks_public": 11,
+  "seed_filtered_count": 96,
+  "seed_filtered_base": 254
+}

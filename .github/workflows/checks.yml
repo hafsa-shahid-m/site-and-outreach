@@ -1,0 +1,9 @@
+# Calls DW's own checks from a public repository you cannot edit.
+# The commit below is written twice: in "uses" and in "checks_sha". Keep both lines the same.
+name: checks
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  canonical:
+    uses: ZeeshanAdilButt/site-and-outreach-checks/.github/workflows/canonical.yml@00c0260f176da3b1b6bef565f78c8cf2a4677245
+    with:
+      checks_sha: 00c0260f176da3b1b6bef565f78c8cf2a4677245

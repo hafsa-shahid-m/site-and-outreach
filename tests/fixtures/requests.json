@@ -1,0 +1,232 @@
+[
+  {
+    "name": "person: Chrome on Windows",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+    },
+    "expect": "person"
+  },
+  {
+    "name": "person: Safari on iPhone",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Mobile/15E148 Safari/604.1"
+    },
+    "expect": "person"
+  },
+  {
+    "name": "person: Firefox on Windows",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0"
+    },
+    "expect": "person"
+  },
+  {
+    "name": "person: Chrome on Android",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36"
+    },
+    "expect": "person"
+  },
+  {
+    "name": "person: Safari on iPad",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (iPad; CPU OS 17_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Mobile/15E148 Safari/604.1"
+    },
+    "expect": "person"
+  },
+  {
+    "name": "person: Edge on Windows",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0"
+    },
+    "expect": "person"
+  },
+  {
+    "name": "person: Safari on Mac",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15"
+    },
+    "expect": "person"
+  },
+  {
+    "name": "person: Chrome on Linux",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+    },
+    "expect": "person"
+  },
+  {
+    "name": "robot: Googlebot",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+    },
+    "expect": "robot"
+  },
+  {
+    "name": "robot: Bingbot",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+    },
+    "expect": "robot"
+  },
+  {
+    "name": "robot: Slack link preview",
+    "headers": {
+      "user-agent": "Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)"
+    },
+    "expect": "robot"
+  },
+  {
+    "name": "robot: WhatsApp link preview",
+    "headers": {
+      "user-agent": "WhatsApp/2.23.20.0 A"
+    },
+    "expect": "robot"
+  },
+  {
+    "name": "robot: LinkedIn link preview",
+    "headers": {
+      "user-agent": "LinkedInBot/1.0 (compatible; Mozilla/5.0; Apache-HttpClient +http://www.linkedin.com)"
+    },
+    "expect": "robot"
+  },
+  {
+    "name": "robot: Facebook link preview",
+    "headers": {
+      "user-agent": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"
+    },
+    "expect": "robot"
+  },
+  {
+    "name": "robot: Twitter link preview",
+    "headers": {
+      "user-agent": "Twitterbot/1.0"
+    },
+    "expect": "robot"
+  },
+  {
+    "name": "robot: Applebot",
+    "headers": {
+      "user-agent": "Applebot/0.1"
+    },
+    "expect": "robot"
+  },
+  {
+    "name": "robot: AhrefsBot",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)"
+    },
+    "expect": "robot"
+  },
+  {
+    "name": "robot: SemrushBot",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (compatible; SemrushBot/7~bl; +http://www.semrush.com/bot.html)"
+    },
+    "expect": "robot"
+  },
+  {
+    "name": "robot: curl",
+    "headers": {
+      "user-agent": "curl/8.4.0"
+    },
+    "expect": "robot"
+  },
+  {
+    "name": "robot: python-requests",
+    "headers": {
+      "user-agent": "python-requests/2.31.0"
+    },
+    "expect": "robot"
+  },
+  {
+    "name": "robot: Headless Chrome",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/120.0.0.0 Safari/537.36"
+    },
+    "expect": "robot"
+  },
+  {
+    "name": "robot: Gmail image proxy",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)"
+    },
+    "expect": "robot"
+  },
+  {
+    "name": "empty browser string",
+    "headers": {
+      "user-agent": ""
+    },
+    "expect": "empty-agent"
+  },
+  {
+    "name": "no browser string at all",
+    "headers": {},
+    "expect": "empty-agent"
+  },
+  {
+    "name": "prefetch: Sec-Purpose",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36",
+      "sec-purpose": "prefetch;prerender"
+    },
+    "expect": "prefetch"
+  },
+  {
+    "name": "prefetch: Purpose",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36",
+      "purpose": "prefetch"
+    },
+    "expect": "prefetch"
+  },
+  {
+    "name": "prefetch: Next.js router",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36",
+      "next-router-prefetch": "1"
+    },
+    "expect": "prefetch"
+  },
+  {
+    "name": "HEAD request",
+    "method": "HEAD",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+    },
+    "expect": "head"
+  },
+  {
+    "name": "a made-up session cookie is not the owner",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36",
+      "cookie": "session=owner"
+    },
+    "expect": "person"
+  },
+  {
+    "name": "two causes: prefetch and robot",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+      "sec-purpose": "prefetch"
+    },
+    "expect": "prefetch"
+  },
+  {
+    "name": "two causes: HEAD and robot",
+    "method": "HEAD",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+    },
+    "expect": "head"
+  },
+  {
+    "name": "two causes: empty agent and prefetch",
+    "headers": {
+      "user-agent": "",
+      "purpose": "prefetch"
+    },
+    "expect": "prefetch"
+  }
+]

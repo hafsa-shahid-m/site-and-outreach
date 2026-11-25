@@ -1,0 +1,4 @@
+{
+ "stats_tests_4_11": 5,
+ "_note": "measured 2026-11-08: npx vitest run tests/stats.test.ts -t \"chapter 4.11\" -> 5 passed"
+}
